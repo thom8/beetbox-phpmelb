@@ -7,7 +7,7 @@ machine:
     BEET_BASE: /var/beetbox
     BEET_USER: ubuntu
     BEET_DEPENDENCIES: https://raw.githubusercontent.com/beetboxvm/beetbox/master/provisioning/beetbox.sh
-    DEFAULT_TIMEZONE: Antarctica/South_Pole
+    DEFAULT_TIMEZONE: Pacific/Fiji
 dependencies:
   override:
     - sudo cp ~/$CIRCLE_PROJECT_REPONAME/.beetbox/config.yml ~/vagrant.config.yml

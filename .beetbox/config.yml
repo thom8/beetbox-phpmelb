@@ -5,7 +5,7 @@ beet_root: "{{ beet_base}}/{{ beet_project }}"
 # Demo 1 - Custom PHP & timezone
 
 beet_project: custom
-php_date_timezone: "Antarctica/South_Pole"
+php_date_timezone: "Pacific/Fiji"
 
 # Demo 2 - Silverstripe
 
